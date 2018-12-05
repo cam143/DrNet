@@ -1,0 +1,60 @@
+<!--
+  ~ Copyright (c) 2017. Truiton (http://www.truiton.com/).
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~       http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  ~ Contributors:
+  ~ Mohit Gupt (https://github.com/mohitgupt)
+  ~
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.truiton.drnet.ItemOneFragment">
+
+    <com.github.anastr.speedviewlib.AwesomeSpeedometer
+        android:id="@+id/speedDownload"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:sv_unitTextSize="8dp"
+        app:sv_unit="Mb/s"
+        />
+
+    <com.daimajia.numberprogressbar.NumberProgressBar
+        android:layout_below="@+id/speedDownload"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:id="@+id/progressBarLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:progress_text_size="15dp"
+        />
+
+    <Button
+        android:textColor="@android:color/white"
+        android:background="@drawable/red_button"
+        android:layout_margin="20dp"
+        android:id="@+id/buttonTroubleshoot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/troubleshoot" />
+
+</RelativeLayout>

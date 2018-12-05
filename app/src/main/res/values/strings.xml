@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Dr Net</string>
+    <string name="item_1">Troubleshoot</string>
+    <string name="item_2">Available</string>
+    <string name="item_3">About</string>
+    <string name="password">Password</string>
+    <string name="connect">Connect</string>
+    <string name="cancel">Cancel</string>
+    <string name="about_dev">Developers</string>
+
+    <string name="customer_service">Customer Service</string>
+    <string name="customer_service_number">*1888</string>
+
+    <string name="step_1">Troubleshooting</string>
+    <string name="step_2">Result</string>
+    <string name="step_3">Customer Service</string>
+
+    <string name="troubleshoot">Troubleshoot</string>
+
+    <string name="about_app">
+        Dr Net is an android application which gives an automatic procedure on troubleshooting internet connection. \n\n
+        This application sends the data to PLDT server on which step has been performed by calling customer service hotline.
+    </string>
+</resources>
